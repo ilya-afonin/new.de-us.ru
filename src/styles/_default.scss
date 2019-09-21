@@ -1,0 +1,57 @@
+//default settings
+
+body {
+	overflow-x: hidden;
+	color: #333333;
+
+	&.is-unscrolled {
+		overflow: hidden;
+	}
+}
+
+.page {
+	min-height: 100vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	overflow-x: hidden;
+}
+
+.content {
+	flex-grow: 2;
+	width: 100%;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-webkit-backface-visibility: hidden;
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-overflow-scrolling: touch;
+	// outline: 1px solid aqua;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	max-width: 1600px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 50px;
+	&--middle {
+		padding: 0 100px;
+	}
+}
