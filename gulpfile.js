@@ -319,7 +319,6 @@ gulp.task('js', gulp.series('common-js', function () {
 
 	return gulp.src([
 		'src/lib/js/*js',
-		'src/js/map.js',
 		'src/js/main.min.js', // Всегда в конце
 	])
 	.pipe(concat('scripts.min.js'))
@@ -340,7 +339,7 @@ gulp.task('watch', function() {
 
 	//gulp.watch(config.src.scripts, gulp.series('concat', 'babelify'));
 
-	gulp.watch(['src/lib/js/**/*.js', 'src/js/map.js', 'src/js/main.js'], gulp.series('js'));
+	gulp.watch(['src/lib/js/**/*.js', 'src/js/main.js'], gulp.series('js'));
 
 	//gulp.watch(config.src.libjs, gulp.parallel('libjs'));
 

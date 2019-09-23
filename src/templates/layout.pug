@@ -17,7 +17,6 @@ html(lang="ru")
 
 
 	body(class='-loading ' + bodyClass)
-		include blocks/sidebar
 		div(class='page')
 			block header
 
@@ -31,11 +30,6 @@ html(lang="ru")
 
 
 	//script(src='assets/js/jquery-3.1.1.min.js')
-
-	if (bodyClass === '-page-route')
-		//script(src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript")
-		//script(src="https://api-maps.yandex.ru/2.1/?apikey=a6bdadb5-db12-44d9-af88-2bdb9e48eb23&lang=ru_RU" type="text/javascript" async)
-		//script(src='assets/js/routes.js')
 
 	script(src='assets/js/scripts.min.js')
 

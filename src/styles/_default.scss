@@ -1,8 +1,16 @@
 //default settings
-
+*, :before, :after {
+	box-sizing: inherit;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-kerning: auto;
+	font-kerning: auto;
+}
 body {
 	overflow-x: hidden;
-	color: #333333;
+	color: #fff;
+	background-color: $color-bg;
 
 	&.is-unscrolled {
 		overflow: hidden;
@@ -11,15 +19,7 @@ body {
 
 .page {
 	min-height: 100vh;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
-	-webkit-flex-direction: column;
-	-moz-flex-direction: column;
-	-ms-flex-direction: column;
-	-o-flex-direction: column;
 	flex-direction: column;
 	overflow-x: hidden;
 }
