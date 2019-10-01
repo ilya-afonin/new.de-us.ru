@@ -25,7 +25,8 @@ var gulp = require('gulp'),
 	clean = require('gulp-clean'),
 	realFavicon = require ('gulp-real-favicon'),
     fontName = 'iconsmoon',
-	fs = require('fs')
+	fs = require('fs'),
+	ghPages = require('gulp-gh-pages');
 
 //paths config
 var config = {
@@ -325,6 +326,11 @@ gulp.task('js', gulp.series('common-js', function () {
 	//.pipe(uglify()) // Минимизировать весь js (на выбор)
 	.pipe(gulp.dest('dist/assets/js'));
 }));
+
+gulp.task('deploy', function () {
+    return gulp.src(`${config.distPath}/**/*`)
+        .pipe(ghPages());
+});
 
 //watch changes
 gulp.task('watch', function() {
