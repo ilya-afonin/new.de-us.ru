@@ -1,0 +1,39 @@
+// Basic Scroll
+
+body:not(.isMobile) {
+
+  .basicScroll {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+}
+
+.basicScroll .container {
+  position: relative;
+  width: 100%;
+  transform: translateZ(0);
+}
+
+.basicScroll .content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  // will-change: transform;
+}
+
+body.isMobile {
+
+  .basicScroll .content {
+    position: static;
+  }
+
+}
+
+body.safari .basicScroll .content {
+  position: absolute;
+  // padding-bottom: 0;
+}
+

@@ -12,9 +12,12 @@ body {
 	color: #fff;
 	background-color: $color-bg;
 
-	&.is-unscrolled {
+	&.-loading {
 		overflow: hidden;
 	}
+}
+.overflowHidden, .mobileNavOpen {
+	overflow: hidden;
 }
 
 .page {
@@ -22,6 +25,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	overflow-x: hidden;
+	position: relative;
 }
 
 .content {
@@ -54,4 +58,35 @@ img {
 	&--middle {
 		padding: 0 100px;
 	}
+}
+
+
+.barba-container {
+	transition: opacity 0.5s;
+}
+
+.bottom-gradient {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100vw;
+	height: 275px;
+	pointer-events: none;
+	background: linear-gradient(360deg, #292930 0%, rgba(41, 41, 48, 0) 100%);
+}
+.bg-sections {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(41, 41, 48, 0.9);
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.5s 0s, visibility 0.5s 0s;
+}
+.aboutShow .bg-sections {
+	opacity: 1;
+	visibility: visible;
 }

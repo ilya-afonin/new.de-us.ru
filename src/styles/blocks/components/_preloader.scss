@@ -31,6 +31,17 @@
   transform: scale(1);
   opacity: 1;
 }
-#preloader path{
-  //transition: 2s cubic-bezier(0.215, 0.61, 0.355, 1) 3s;
+#preloader {
+  .logo-path {
+    fill-opacity: 0;
+    transition: all 650ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  &.finished {
+    .logo-path {
+      stroke-width: 0 !important;
+      fill-opacity: 1 !important;
+    }
+  }
+
 }

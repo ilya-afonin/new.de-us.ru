@@ -9,17 +9,12 @@ div.header
         nav.links
             ul
                 li.about-li
-                    button.link(aria-label="Агенство") Агентство
+                    button.link(aria-label="Агенство" data-section="about") Агентство
                 li.contacts-li
-                    button.link(aria-label="Контакты") Контакты
+                    button.link(aria-label="Контакты" data-section="contact") Контакты
         div.contact
             ul
                 li
                     a.mail(href="mailto:hello@de-us.ru") hello@de-us.ru
                 li
                     a(href="tel: +74951034351") +7 (495) 103-43-51
-
-
-div.preloader
-    div.preloader__container.-loading
-        object#preloader(type="image/svg+xml" data="assets/images/content/deus.svg")

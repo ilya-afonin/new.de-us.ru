@@ -1,0 +1,324 @@
+.home-page {
+
+  // Stage
+
+  .stagePerspective {
+    position: relative;
+    width: 100%;
+    perspective: 100vw;
+    will-change: transform;
+  }
+
+  &:not(.isMobile) {
+
+    .stagePerspective {
+      height: 100vh;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+  }
+
+  .stageContainer {
+    position: relative;
+    width: 100%;
+    transform: translateZ(0);
+    transform-style: preserve-3d;
+  }
+
+  .stage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 5vw 5vw calc(7.5vw + 67px) 0;
+    transform-style: preserve-3d;
+    opacity: 1;
+    transition: opacity 1s;
+    // will-change: transform;
+
+  }
+
+  &.safari .stage {
+    position: absolute;
+    padding-bottom: 0;
+  }
+
+  &.isMobile {
+
+    .stage {
+      position: static;
+    }
+
+  }
+
+  // Projects
+
+  .projects {
+    position: relative;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    text-align: right;
+    width: 95%;
+    transform-style: preserve-3d;
+  }
+
+  .projectsLi {
+    cursor: pointer;
+    /*-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotate3d(0, 1, 0, var(--rotateY)) translateZ(0);*/
+    transform-style: preserve-3d;
+    margin-bottom: 40px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .projectContainer {
+    transform: rotateY(-25deg) translateZ(0) scale(1);
+    transform-origin: right center;
+    transform-style: preserve-3d;
+    will-change: transform;
+
+    @media screen and (min-width: 768px) {
+      transition: transform 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+  }
+
+  &:not(.intro) .projectsLi:hover .projectContainer,
+  &:not(.intro) .projectsLi.isHovered .projectContainer {
+    transform: rotate3d(0, 1, 0, 0deg) translateZ(0) scale(1);
+    transition-duration: 1s;
+  }
+
+  .projectsLi.isSelected .projectContainer,
+  .projectsLi.isSelected:hover .projectContainer {
+
+    transform: rotate3d(0, 1, 0, 0deg) translateZ(0) scale(1);
+
+    @media screen and (max-width: 767px) {
+      transition: transform 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    .projectName {
+
+      @supports ((-webkit-text-stroke: 3px #fff) or (text-stroke: 3px #fff)) {
+        -webkit-text-stroke: 0px #fff;
+        text-stroke: 0px #fff;
+      }
+    }
+
+  }
+
+  &:not(.intro) .projects.isHovering .projectsLi:hover .projectName,
+  &:not(.intro) .projects.isHovering .projectsLi.isHovered .projectName {
+
+    transition-duration: 0.3s;
+    color: #fff;
+    text-shadow: 0 5px 17px rgba(255,255,255, 0.27);
+
+  }
+  .projects .projectData {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+  }
+  .projects .projectLinks {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-right: 25px;
+    margin-right: 10px;
+    height: 120px;
+    padding-top: 3px;
+  }
+  .projects a {
+    font-family: HelveticaNeueCyr, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    /*-webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;*/
+    transition: color 0.5s, opacity 0.5s;
+  }
+
+   //&:not(.aboutShow) .uiHover .projects a {
+   //	@supports ((-webkit-text-stroke: 3px #fff) or (text-stroke: 3px #fff)) {
+   //		color: transparent;
+   //	}
+   //}
+  .projects .projectLinks:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 2px;
+    height: 100%;
+    background-color: #fff;
+    transform: rotateZ(15deg);
+    pointer-events: none;
+  }
+
+  .projects .year {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
+    color: $color-accent !important;
+    margin-bottom: 15px;
+  }
+  .projects a.link-behance {
+    background: url('../images/content/behance.svg') center no-repeat;
+    background-size: cover;
+    width: 16px;
+    height: 10px;
+    margin-bottom: 15px;
+  }
+  .projects a.link-site {
+    background: url('../images/content/icon_link.svg') center no-repeat;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+  }
+  .projects .projectName {
+    //flex-basis: 0;
+    flex-shrink: 0;
+    font-family: HelveticaNeueCyr, sans-serif;
+    font-size: 144px;
+    line-height: 1;
+    font-weight: 700;
+    color: #fff;
+
+    @supports ((-webkit-text-stroke: 3px #fff) or (text-stroke: 3px #fff)) {
+      color: transparent;
+      -webkit-text-stroke: 3px #fff;
+      text-stroke: 3px #fff;
+    }
+  }
+
+  // Intro
+
+  &:not(.isMobile).intro {
+    pointer-events: none;
+  }
+
+  &.intro .stage {
+    transform: translate3d(0, -110%, 0);
+    animation: introStage 2s forwards;
+  }
+
+  @keyframes introStage {
+    0% {
+      transform: translate3d(0, -110%, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  &.intro .projectContainer {
+    visibility: hidden;
+    transition: none;
+    animation: introProjectContainer 2s forwards;
+  }
+
+  @keyframes introProjectContainer {
+    0% {
+      visibility: visible;
+      opacity: 0;
+      transform: rotate3d(0, 1, 0, -130deg) translateZ(0) scale(1);
+    }
+    100% {
+      visibility: visible;
+      opacity: 1;
+      transform: rotate3d(0, 1, 0, -25deg) translateZ(0) scale(1);
+    }
+  }
+
+  &:not(.isMobile).intro .stage {
+    position: absolute;
+  }
+
+  @for $i from 1 through 8 {
+    &.intro .projectsLi:nth-child(#{$i}) .projectContainer {
+      animation-delay: 1s - ($i / 10);
+    }
+  }
+
+  // Outro
+
+  &.outro {
+
+    &:not(.isMobile) {
+      pointer-events: none;
+    }
+
+    .stageContainer {
+      transform: translate3d(0, 0, 0);
+      animation: outro 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 1.15s forwards;
+    }
+
+    .projectContainer {
+      transition: transform 1.5s cubic-bezier(0.075, 0.82, 0.165, 1), opacity 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    .projectsLi:not(.isSelected) .projectContainer {
+      transform: rotate3d(0, 1, 0, -114deg) translateZ(0) scale(1);
+      opacity: 0;
+      transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      transition-duration: 0.25s;
+    }
+
+    @for $i from 1 through 9 {
+      .projectsLi:not(.isSelected):nth-child(#{$i}) .projectContainer {
+        transition-delay: 1s - ($i / 10);
+      }
+    }
+
+    .projectsLi.isSelected .projectContainer,
+    .projectsLi.isSelected:hover .projectContainer {
+      transform: rotate3d(0, 1, 0, 0deg) translateZ(0) scale(0.7);
+      opacity: 0;
+      transition-duration: 0.5s;
+      transition-delay: 1s;
+    }
+
+    .projectsLi.isSelected .projectContainer a {
+      transition-delay: 1.15s;
+    }
+
+    .projectsLi.isSelected .projectContainer a {
+
+      &:before,
+      &:after {
+        opacity: 0;
+        transition: opacity 0.2s ease-out 0.15s;
+      }
+
+    }
+
+    @keyframes outro {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+      100% {
+        transform: translate3d(0, -25vh, 0);
+      }
+    }
+
+  }
+
+  // Parallax Perspective
+
+  .parallaxPerspective {
+    perspective-origin: 50% var(--perspective-origin-y);
+    will-change: perspective-origin;
+  }
+
+}

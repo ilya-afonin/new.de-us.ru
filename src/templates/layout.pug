@@ -18,19 +18,26 @@ html(lang="ru")
 
 	body(class='-loading ' + bodyClass)
 		div(class='page')
+
+			div.preloader
+				div.preloader__container.-loading
+					include ../images/content/deus.svg
+					//object#preloader(type="image/svg+xml" data="assets/images/content/deus.svg")
+
 			block header
 
 			div.content
 				block content
 
-			div.overlay
+			div.bottom-gradient
 
 			block footer
 			//include blocks/popups
 
 
 	//script(src='assets/js/jquery-3.1.1.min.js')
-
+	//script(src='https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js')
 	script(src='assets/js/scripts.min.js')
+
 
 
