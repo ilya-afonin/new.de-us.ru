@@ -3916,7 +3916,7 @@ body {
   body.-loading {
     overflow: hidden; }
 
-.overflowHidden, .mobileNavOpen {
+.overflowHidden, .navTop {
   overflow: hidden; }
 
 .page {
@@ -4711,19 +4711,28 @@ body.aboutShow .mobile-nav-inner:after {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   height: 100%;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: opacity 0.5s 0s, visibility 0.5s 0s;
   transition: opacity 0.5s 0s, visibility 0.5s 0s; }
+  .about:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 41, 48, 0.9); }
   .about:after {
     content: '';
     position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
     width: 100%;
     height: 30vh;
     background: -webkit-gradient(linear, left bottom, left top, from(#292930), to(rgba(41, 41, 48, 0)));
