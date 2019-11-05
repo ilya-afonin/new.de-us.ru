@@ -1,6 +1,16 @@
+.idea
 node_modules/
 
-dist/
+/.htaccess
+/bitrix
+/upload
+/local/php_interface/constants.php
+/*.txt
+/*.html
+~*.php
+*.log
+*.xml
+/*.sql
+Thumbs.db
 .DS_Store
-.idea/
-.publish
+._.DS_Store

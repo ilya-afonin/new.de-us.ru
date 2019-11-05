@@ -2,11 +2,448 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad5ac706-246e-40d9-a0f6-43aa91019bc2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.access.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.section.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/404.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/icons/favicon-16x16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/icons/favicon-24x24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/icons/favicon-32x32.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/icons/favicon-48x48.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/icons/favicon-64x64.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/description.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/footer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/header.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/google_analitics.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/includes/regEx.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/about_clients_desr.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/about_clients_t.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/about_describe.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/about_form_descr.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/about_form_t.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/about_honor_desc.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/about_honor_t.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/about_services_descr.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/about_services_t.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/about_text.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/copyright.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/form.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/main_button.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/main_text.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/main_text_all.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/main_title.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/ru/popups.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/include_areas/yandex_metrika.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/lang/en/description.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/lang/en/header.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/lang/ru/.styles.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/lang/ru/description.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/lang/ru/footer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/lang/ru/header.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/page_templates/.content.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/page_templates/standard.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/template_styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/about.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/css/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BlackItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BlackItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BlackItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BlackItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BoldItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BoldItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BoldItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Heavy.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Heavy.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Heavy.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-HeavyItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-HeavyItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-HeavyItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Italic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Italic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Italic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Italic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-LightItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-LightItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-LightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-LightItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-MediumItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-MediumItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-MediumItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-ThinItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-ThinItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-ThinItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-ThinItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLight.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLight.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLight.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLightItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLightItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLightItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLight_0.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/behance.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/UCG.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/absolute.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c1.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c10.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c11.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c2.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c3.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c4.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c5.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c6.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c7.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c8.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c9.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/direct.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/easy.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/freezone.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/kid.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/kuban-kredit.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/nacional.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/soverenbank.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/tinkoff.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/total.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c1.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c10.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c11.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c12.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c2.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c3.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c4.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c5.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c6.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c7.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c8.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c9.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/deus.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/honor1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/honor1.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/honor2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/honor2.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/honor3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/honor3.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/icon_link.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/logo.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/static/contact.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/static/presentation.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/static/valid.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/assets/js/scripts.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/blocks/footer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/blocks/header.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/contacts.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/dist/layout.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/gulpfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BlackItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BlackItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BlackItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BoldItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BoldItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Heavy.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Heavy.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Heavy.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-HeavyItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-HeavyItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-HeavyItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Italic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Italic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Italic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-LightItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-LightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-LightItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-MediumItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-MediumItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-MediumItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-ThinItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-ThinItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-ThinItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLight.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLight.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLight.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLightItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLightItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/behance.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c1.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c10.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c11.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c12.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c2.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c3.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c4.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c5.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c6.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c7.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c8.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c9.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/deus.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/honor1.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/honor2.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/honor3.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/icon_link.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/content/logo.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/static/contact.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/static/presentation.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/images/static/valid.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/js/main.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/lib/css/bootstrap-grid.min.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/lib/css/dropzone.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/lib/css/swiper.min.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/lib/js/barba.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/lib/js/basicScroll.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/lib/js/jquery-3.1.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/lib/js/mask.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/lib/js/validate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/lib/js/vivus.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/_blocks.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/_custom.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/_default.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/_fonts.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/_items.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/_pages.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/_reset.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/blocks/_components.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/blocks/_standing.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/blocks/components/_about.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/blocks/components/_animations.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/blocks/components/_basicScroll.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/blocks/components/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/blocks/components/_form.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/blocks/components/_home.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/blocks/components/_parallax.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/blocks/components/_preloader.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/blocks/standing/_footer.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/blocks/standing/_header.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/fonts/_HelveticaNeueCyr.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/items/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/items/_items.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/items/_links.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/main.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/_blocks.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/_custom.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/_default.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/_items.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/_media.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/_pages.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/blocks/_components.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/blocks/_standing.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/blocks/components/_about.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/blocks/components/_form.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/blocks/components/_home.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/blocks/standing/_footer.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/blocks/standing/_header.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/items/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/items/_items.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/media/items/_links.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/variables/_colors.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/styles/variables/_screens.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/templates/about.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/templates/blocks/footer.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/templates/blocks/header.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/templates/contacts.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/templates/index.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/local/templates/main/tpl/src/templates/layout.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/urlrewrite.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web.config" />
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BlackItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BlackItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BlackItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Heavy.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Heavy.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Heavy.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-HeavyItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-HeavyItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-HeavyItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Italic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Italic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Italic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-LightItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-LightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-LightItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-MediumItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-MediumItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-MediumItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-ThinItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-ThinItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-ThinItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLight.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLight.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLight.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLightItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLightItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/behance.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/c1.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/c10.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/c11.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/c12.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/c2.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/c3.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/c4.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/c5.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/c6.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/c7.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/c8.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/c9.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/deus.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/honor1.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/honor2.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/honor3.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/icon_link.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/content/logo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/static/contact.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/static/presentation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/static/valid.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/lib/css/bootstrap-grid.min.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/lib/css/dropzone.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/lib/css/swiper.min.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/lib/js/barba.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/lib/js/basicScroll.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/lib/js/jquery-3.1.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/lib/js/mask.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/lib/js/validate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/lib/js/vivus.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_blocks.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_custom.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_default.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_fonts.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_items.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_pages.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_reset.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/_components.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/_standing.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/components/_about.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/components/_animations.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/components/_basicScroll.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/components/_buttons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/components/_form.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/components/_home.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/components/_parallax.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/components/_preloader.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/standing/_footer.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/standing/_header.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/_HelveticaNeueCyr.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/items/_buttons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/items/_items.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/items/_links.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/_blocks.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/_custom.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/_default.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/_items.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/_media.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/_pages.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/blocks/_components.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/blocks/_standing.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/blocks/components/_about.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/blocks/components/_form.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/blocks/components/_home.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/blocks/standing/_footer.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/blocks/standing/_header.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/items/_buttons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/items/_items.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/items/_links.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variables/_colors.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variables/_screens.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/templates/about.pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/templates/blocks/footer.pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/templates/blocks/header.pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/templates/contacts.pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/templates/index.pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/templates/layout.pug" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,102 +453,102 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/media/blocks/components/_home.scss">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="license_key.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;f2a270de-528c-4144-8e6e-0523e3fc090d&gt;/bitrix/license_key.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="90" column="19" lean-forward="false" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/index.pug">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local/templates/main/lang/en/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
-              <caret line="101" column="8" lean-forward="false" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_default.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/_default.scss">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local/templates/main/lang/ru/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="84" column="15" lean-forward="false" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="header.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/src/templates/blocks/header.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="dbconn.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;f2a270de-528c-4144-8e6e-0523e3fc090d&gt;/bitrix/php_interface/dbconn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="335" column="31" lean-forward="true" selection-start-line="335" selection-start-column="31" selection-end-line="335" selection-end-column="31" />
+            <state relative-caret-position="153">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/about.pug">
+      <file leaf-file-name=".settings.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;f2a270de-528c-4144-8e6e-0523e3fc090d&gt;/bitrix/.settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="51">
+              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/blocks/standing/_header.scss">
+      <file leaf-file-name="after_connect.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;f2a270de-528c-4144-8e6e-0523e3fc090d&gt;/bitrix/php_interface/after_connect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="153" column="1" lean-forward="false" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/media/blocks/standing/_header.scss">
+      <file leaf-file-name="after_connect_d7.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;f2a270de-528c-4144-8e6e-0523e3fc090d&gt;/bitrix/php_interface/after_connect_d7.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/media/blocks/components/_form.scss">
+      <file leaf-file-name=".content.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local/templates/main/page_templates/.content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="51">
+              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_about.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/media/blocks/components/_about.scss">
+      <file leaf-file-name="_HelveticaNeueCyr.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/src/styles/fonts/_HelveticaNeueCyr.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -121,25 +558,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-loading</find>
-      <find>stage</find>
-      <find>container</find>
-      <find>navTop</find>
-      <find>.about .container</find>
-      <find>navAbout</find>
-      <find>btn-back</find>
-      <find>aboutBack</find>
-      <find>remove</find>
-      <find>aboutShow</find>
-      <find>.png</find>
-      <find>objec</find>
-      <find>$color-gr</find>
-      <find>HomeTransition</find>
-      <find>.c-form__line</find>
       <find>js-validate</find>
       <find>btn</find>
       <find>$off</find>
-      <find>mobileNavOpen</find>
       <find>body.navTop .header .links ul</find>
       <find>body.navTop</find>
       <find>.info</find>
@@ -151,6 +572,22 @@
       <find>mobile-nav</find>
       <find>overflowHidden</find>
       <find>deplo</find>
+      <find>navTop</find>
+      <find>data-section</find>
+      <find>mobileNavOpen</find>
+      <find>abou</find>
+      <find>right</find>
+      <find>.about</find>
+      <find>contact</find>
+      <find>button.link:not(.isActive)</find>
+      <find>button.lin</find>
+      <find>.c-form__input-label</find>
+      <find>body.aboutShow</find>
+      <find>body.aboutShow .about, body.aboutShow .about .container</find>
+      <find>.header .logo</find>
+      <find>.right</find>
+      <find>aboutShow</find>
+      <find>.about</find>
     </findStrings>
     <replaceStrings>
       <replace>.-loaded</replace>
@@ -180,28 +617,39 @@
         <option value="$PROJECT_DIR$/src/styles/blocks/components/_parallax.scss" />
         <option value="$PROJECT_DIR$/src/styles/blocks/components/_preloader.scss" />
         <option value="$PROJECT_DIR$/src/templates/layout.pug" />
-        <option value="$PROJECT_DIR$/src/styles/blocks/components/_buttons.scss" />
         <option value="$PROJECT_DIR$/src/templates/blocks/header.pug" />
         <option value="$PROJECT_DIR$/local/tools/form-handler.php" />
         <option value="$PROJECT_DIR$/src/templates/contacts.pug" />
         <option value="$PROJECT_DIR$/src/styles/media/blocks/components/_forms.scss" />
-        <option value="$PROJECT_DIR$/src/styles/blocks/components/_form.scss" />
         <option value="$PROJECT_DIR$/src/styles/blocks/components/_animation.scss" />
         <option value="$PROJECT_DIR$/src/styles/blocks/_components.scss" />
         <option value="$PROJECT_DIR$/src/styles/media/blocks/_components.scss" />
         <option value="$PROJECT_DIR$/src/styles/media/blocks/components/_form.scss" />
-        <option value="$PROJECT_DIR$/src/styles/media/blocks/components/_about.scss" />
-        <option value="$PROJECT_DIR$/src/styles/blocks/components/_home.scss" />
         <option value="$PROJECT_DIR$/src/styles/media/blocks/components/_home.scss" />
-        <option value="$PROJECT_DIR$/src/js/main.js" />
-        <option value="$PROJECT_DIR$/src/styles/blocks/standing/_header.scss" />
-        <option value="$PROJECT_DIR$/src/styles/media/blocks/standing/_header.scss" />
         <option value="$PROJECT_DIR$/src/templates/about.pug" />
-        <option value="$PROJECT_DIR$/src/templates/index.pug" />
-        <option value="$PROJECT_DIR$/src/styles/blocks/components/_about.scss" />
-        <option value="$PROJECT_DIR$/src/styles/_default.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/templates/index.pug" />
+        <option value="$PROJECT_DIR$/src/styles/_default.scss" />
+        <option value="$PROJECT_DIR$/src/styles/blocks/components/_home.scss" />
+        <option value="$PROJECT_DIR$/src/styles/media/blocks/components/_about.scss" />
+        <option value="$PROJECT_DIR$/src/styles/media/blocks/standing/_header.scss" />
+        <option value="$PROJECT_DIR$/src/styles/blocks/standing/_header.scss" />
+        <option value="$PROJECT_DIR$/src/styles/blocks/components/_buttons.scss" />
+        <option value="$PROJECT_DIR$/src/styles/blocks/components/_form.scss" />
+        <option value="$PROJECT_DIR$/src/styles/blocks/components/_about.scss" />
+        <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/robots.txt" />
+        <option value="&lt;f2a270de-528c-4144-8e6e-0523e3fc090d&gt;/index.php" />
+        <option value="$PROJECT_DIR$/local/templates/main/header.php" />
+        <option value="$PROJECT_DIR$/local/templates/main/include_areas/yandex_metrika.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="&lt;f2a270de-528c-4144-8e6e-0523e3fc090d&gt;/bitrix/license_key.php" />
+        <option value="&lt;f2a270de-528c-4144-8e6e-0523e3fc090d&gt;/bitrix/php_interface/dbconn.php" />
+        <option value="&lt;f2a270de-528c-4144-8e6e-0523e3fc090d&gt;/bitrix/.settings.php" />
+        <option value="&lt;f2a270de-528c-4144-8e6e-0523e3fc090d&gt;/bitrix/php_interface/after_connect_d7.php" />
+        <option value="&lt;f2a270de-528c-4144-8e6e-0523e3fc090d&gt;/bitrix/php_interface/after_connect.php" />
       </list>
     </option>
   </component>
@@ -217,7 +665,7 @@
     <detection-done>true</detection-done>
     <gulpfiles>
       <GulpfileState>
-        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+        <gulpfile-path>$PROJECT_DIR$/local/templates/main/tpl/gulpfile.js</gulpfile-path>
         <tasks>
           <GulpTaskState>
             <task-name>iconfont</task-name>
@@ -280,6 +728,9 @@
             <task-name>js</task-name>
           </GulpTaskState>
           <GulpTaskState>
+            <task-name>deploy</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
             <task-name>watch</task-name>
           </GulpTaskState>
           <GulpTaskState>
@@ -334,8 +785,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,12 +795,121 @@
             <path>
               <item name="new.de-us.ru" type="b2602c69:ProjectViewProjectNode" />
               <item name="new.de-us.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name=".publish" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="new.de-us.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new.de-us.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="new.de-us.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new.de-us.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="new.de-us.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new.de-us.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="new.de-us.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new.de-us.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="new.de-us.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new.de-us.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="new.de-us.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new.de-us.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="new.de-us.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new.de-us.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="new.de-us.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new.de-us.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="new.de-us.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new.de-us.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="new.de-us.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new.de-us.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="new.de-us.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new.de-us.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tools" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="new.de-us.ru" type="cbb8eebc:String" user="new.de-us.ru" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,15 +925,16 @@
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/local/templates/main/tpl" />
+      <recent name="$PROJECT_DIR$/src/images/content" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/local/templates/main" />
       <recent name="$PROJECT_DIR$/local/tools" />
       <recent name="$PROJECT_DIR$/src/lib/js" />
       <recent name="$PROJECT_DIR$/src/styles/blocks/components" />
-      <recent name="$PROJECT_DIR$/src/fonts/HelveticaNeueCyr" />
-      <recent name="$PROJECT_DIR$/src/fonts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/images/content" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,6 +955,16 @@
       <node-options />
       <gulpfile />
       <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="build (1)" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/local/templates/main/tpl/gulpfile.js</gulpfile>
+      <tasks>
+        <task>build</task>
+      </tasks>
       <arguments />
       <envs />
     </configuration>
@@ -429,16 +998,18 @@
       <arguments />
       <envs />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Gulp.js.build" />
       <item index="1" class="java.lang.String" itemvalue="Gulp.js.watch" />
       <item index="2" class="java.lang.String" itemvalue="Gulp.js.templates" />
+      <item index="3" class="java.lang.String" itemvalue="Gulp.js.build (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Gulp.js.templates" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Gulp.js.build (1)" />
         <item index="1" class="java.lang.String" itemvalue="Gulp.js.watch" />
-        <item index="2" class="java.lang.String" itemvalue="Gulp.js.build" />
+        <item index="2" class="java.lang.String" itemvalue="Gulp.js.templates" />
+        <item index="3" class="java.lang.String" itemvalue="Gulp.js.build" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +1038,14 @@
       <workItem from="1569919720533" duration="595000" />
       <workItem from="1569920696200" duration="2000" />
       <workItem from="1569920793860" duration="741000" />
-      <workItem from="1569926837610" duration="1592000" />
+      <workItem from="1569926837610" duration="13788000" />
+      <workItem from="1570444578007" duration="599000" />
+      <workItem from="1570448586223" duration="12617000" />
+      <workItem from="1571076605762" duration="595000" />
+      <workItem from="1572297334756" duration="1943000" />
+      <workItem from="1572347916000" duration="3725000" />
+      <workItem from="1572809928934" duration="3271000" />
+      <workItem from="1572956189211" duration="4574000" />
     </task>
     <task id="LOCAL-00001" summary="header + main page">
       <created>1569238942731</created>
@@ -483,23 +1061,31 @@
       <option name="project" value="LOCAL" />
       <updated>1569927065482</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added deploy task">
+      <created>1569930816647</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569930816647</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157947000" />
+    <option name="totallyTimeSpent" value="197467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="958" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3221321" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18887602" sideWeight="0.21459854" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18887602" sideWeight="0.78540146" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6477404" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23059095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792583" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20818071" sideWeight="0.55156434" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20818071" sideWeight="0.4484357" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1552723" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1904762" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1978022" sideWeight="0.45191193" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1978022" sideWeight="0.5480881" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -545,13 +1131,40 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="header + main page" />
     <MESSAGE value="alpha" />
-    <option name="LAST_COMMIT_MESSAGE" value="alpha" />
+    <MESSAGE value="added deploy task" />
+    <option name="LAST_COMMIT_MESSAGE" value="added deploy task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -560,357 +1173,313 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/js/main.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/standing/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/js/vivus.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="0" column="2928" lean-forward="false" selection-start-line="0" selection-start-column="2928" selection-end-line="0" selection-end-column="2928" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/_standing.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/js/jquery-3.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/content/logo.svg">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c5.svg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/variables/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fonts/Helvetica-Neue-Cyr/Внимание!.txt" />
-    <entry file="file://$PROJECT_DIR$/src/styles/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/fonts/_HelveticaNeueCyr.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/blocks/footer.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/assets/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="3401" column="0" lean-forward="true" selection-start-line="3401" selection-start-column="0" selection-end-line="3401" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/assets/js/scripts.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="99" column="26" lean-forward="true" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/js/barba.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="0" column="5512" lean-forward="false" selection-start-line="0" selection-start-column="5512" selection-end-line="0" selection-end-column="5512" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.promise.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="40" column="92" lean-forward="true" selection-start-line="40" selection-start-column="92" selection-end-line="40" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/test.js" />
-    <entry file="file://$PROJECT_DIR$/src/images/content/deus.svg">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c5.svg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/components/_basicScroll.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="12" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c5.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/components/_parallax.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/components/_preloader.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c6.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/css/bootstrap-grid.min.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="107" lean-forward="false" selection-start-line="5" selection-start-column="98" selection-end-line="5" selection-end-column="107" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c6.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/layout.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c6.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/components/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="11" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/components/_form.scss">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c7.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c7.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c7.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c8.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c8.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c8.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/c9.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c9.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/src/images/content/c9.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/static/contact.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/src/images/static/contact.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/js/validate.js">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/src/templates/contacts.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="214">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/js/mask.js">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/include_areas/ru/copyright.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local/tools/form-handler.php">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/description.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/contacts.pug">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/lang/en/description.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/blocks/header.pug">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/lang/ru/description.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="53" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/components/_form.scss">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/deus.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/src/images/content/deus.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/direct.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/src/lib/css/dropzone.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/components/_animations.scss">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/easy.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icons/favicon-16x16.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icons/favicon-24x24.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icons/favicon-32x32.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icons/favicon-48x48.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icons/favicon-64x64.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/blocks/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/_components.scss">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/media/blocks/_components.scss">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/lang/ru/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/components/_home.scss">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/src/templates/blocks/footer.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="190" column="19" lean-forward="false" selection-start-line="190" selection-start-column="19" selection-end-line="190" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/include_areas/ru/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="430" column="52" lean-forward="false" selection-start-line="430" selection-start-column="52" selection-end-line="430" selection-end-column="52" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/images/content/c/freezone.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/include_areas/google_analitics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="335" column="31" lean-forward="false" selection-start-line="335" selection-start-column="31" selection-end-line="335" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/blocks/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="121" column="10" lean-forward="false" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#806#889#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/components/_about.scss">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/dist/assets/fonts/Helvetica-Neue-Cyr/Шрифт Helvetica Neue Cyr.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main/page_templates/.content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="77" column="2" lean-forward="false" selection-start-line="77" selection-start-column="2" selection-end-line="77" selection-end-column="50" />
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/media/blocks/components/_about.scss">
+    <entry file="file://$PROJECT_DIR$/local/templates/main/tpl/src/styles/fonts/_HelveticaNeueCyr.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/media/blocks/components/_form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/media/blocks/standing/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/standing/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="153" column="1" lean-forward="false" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/about.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="101" column="8" lean-forward="false" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/media/blocks/components/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="90" column="19" lean-forward="false" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_default.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="84" column="15" lean-forward="false" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="335" column="31" lean-forward="true" selection-start-line="335" selection-start-column="31" selection-end-line="335" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,92 @@
+//default settings
+*, :before, :after {
+	box-sizing: inherit;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-kerning: auto;
+	font-kerning: auto;
+}
+body {
+	overflow-x: hidden;
+	color: #fff;
+	background-color: $color-bg;
+
+	&.-loading {
+		overflow: hidden;
+	}
+}
+.overflowHidden, .navTop {
+	overflow: hidden;
+}
+
+.page {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.content {
+	flex-grow: 2;
+	width: 100%;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-webkit-backface-visibility: hidden;
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-overflow-scrolling: touch;
+	// outline: 1px solid aqua;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	max-width: 1600px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 50px;
+	&--middle {
+		padding: 0 100px;
+	}
+}
+
+
+.barba-container {
+	transition: opacity 0.5s;
+}
+
+.bottom-gradient {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100vw;
+	height: 275px;
+	pointer-events: none;
+	background: linear-gradient(360deg, #292930 0%, rgba(41, 41, 48, 0) 100%);
+}
+.bg-sections {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(41, 41, 48, 0.9);
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.5s 0s, visibility 0.5s 0s;
+}
+.aboutShow .bg-sections {
+	opacity: 1;
+	visibility: visible;
+}
